@@ -126,4 +126,4 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 //}
 
 project.ext.RP_ARTIFACT_ID = 'replugin-plugin-gradle-androidx'
-//apply from: '../rp-publish.gradle'
+apply from: '../rp-publish.gradle'
